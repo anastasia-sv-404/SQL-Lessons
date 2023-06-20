@@ -44,7 +44,7 @@ FROM smartphones_200623
 WHERE manufacturer = 'Samsung';
 
 
-#Товары, в которых есть упоминание "Iphone". Выводим все столбцы из таблицы
+#Товары, в которых есть упоминание "Iphone". Выводим все столбцы из таблицы . 
 SELECT *
 FROM smartphones_200623
 WHERE product_name LIKE '%iPhone%';
